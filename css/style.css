@@ -16,15 +16,64 @@
 }
 
 .tag {
-    background-color: #45abe9;
     color: white;
     padding: 8px;
     display: inline-block;
     border-radius: 15px;
+    font-size: 12px;
+}
+
+.editorial {
+    background-color: #45abe9;
+}
+
+.q1goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a0;
+}
+
+.sales {
+    background-color: #b0c926;
 }
 
 .row {
     margin-bottom: 20px;
+}
+
+.check {
+    color: #80ccba;
+    border: 2px solid #80ccba;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cross {
+    color: #eb5a54;
+    border: 2px solid #eb5a54;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.triangle {
+    display: inline-block;
+    transform: scaleY(0.5);
 }
 /* #endregion utility */
 
@@ -37,6 +86,7 @@ body {
 header {
     background-color: white;
     padding: 10px 25px;
+    margin-bottom: 60px;
 }
 
 #title {
@@ -48,16 +98,21 @@ header {
 .container {
     width: 70%;
     margin: auto;
-    border-radius: 10px;
     background-color: white;
-    margin-top: 60px;
     padding: 20px 40px;
 }
 
-/* #region buttons */
-#buttons {
-    margin-bottom: 50px;     
+#buttons_container {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 4px;
 }
+
+#sections_container {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 50px;
+}
+
+/* #region buttons */
 
 #add_task {
     background-color: #47adf1;
@@ -69,4 +124,3 @@ header {
     color: #ced3d7;
 }
 /* #endregion buttons */
-
