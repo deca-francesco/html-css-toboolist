@@ -8,10 +8,29 @@
 .va-m {
     vertical-align: middle;
 }
+
+.btn {
+    border-radius: 7px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.tag {
+    background-color: #45abe9;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
 /* #endregion utility */
 
 body {
     background-color: #f6f8f9;
+    font-family: "Roboto";
 }
 
 /* #region header */
@@ -22,6 +41,7 @@ header {
 
 #title {
     display: inline-block;
+    font-size: 40px;
 }
 /* #endregion header */
 
@@ -31,6 +51,22 @@ header {
     border-radius: 10px;
     background-color: white;
     margin-top: 60px;
-    height: 200px;
+    padding: 20px 40px;
 }
+
+/* #region buttons */
+#buttons {
+    margin-bottom: 50px;     
+}
+
+#add_task {
+    background-color: #47adf1;
+    color: white;
+}
+
+#add_section {
+    border: 1px solid #ced3d7;
+    color: #ced3d7;
+}
+/* #endregion buttons */
 
