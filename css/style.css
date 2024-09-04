@@ -73,6 +73,7 @@ body {
     background-color: #b0c926;
 }
 
+
 .row {
     margin-bottom: 1.2rem;
 }
@@ -106,18 +107,15 @@ body {
 }
 /* #endregion utility */
 
-/* #region header */
-header {
+header, footer {
     background-color: white;
     padding: 1rem 2rem;
-    margin-bottom: 3rem;
 }
 
 .logo_txt {
     display: inline-block;
     font-size: 2.5rem;
 }
-/* #endregion header */
 
 /* #region buttons */
 
@@ -133,3 +131,11 @@ header {
     color: #ced3d7;
 }
 /* #endregion buttons */
+
+main {
+    margin-top: 3rem;
+}
+
+footer span {
+    font-weight: bold;
+}
