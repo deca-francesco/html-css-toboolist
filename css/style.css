@@ -1,28 +1,54 @@
+/* #region common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    /* background-color: #f6f8f9; */
+    background-color: black;
+    font-family: "Roboto";
+}
+/* #endregion common */
+
 /* #region utility */
 .va-m {
     vertical-align: middle;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 1.5rem 2.5rem;
+}
+
+.top-radius {
+    border-radius: 0.8rem 0.8rem 0 0;
+    margin-bottom: 0.2rem;
+}
+
+.bottom-radius {
+    border-radius: 0 0 0.8rem 0.8rem;
+    margin-bottom: 4rem;
+}
+
 .btn {
-    border-radius: 7px;
-    padding: 10px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
     display: inline-block;
 }
 
 .tag {
     color: white;
-    padding: 8px;
+    padding: 0.5rem;
     display: inline-block;
-    border-radius: 15px;
-    font-size: 12px;
+    border-radius: 1rem;
+    font-size: 0.8rem;
 }
 
+/* tag colors */
 .editorial {
     background-color: #45abe9;
 }
@@ -48,27 +74,30 @@
 }
 
 .row {
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 
+/* entities */
 .check {
     color: #80ccba;
-    border: 2px solid #80ccba;
+    border: 0.1rem solid #80ccba;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
     display: inline-block;
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .cross {
     color: #eb5a54;
-    border: 2px solid #eb5a54;
+    border: 0.1rem solid #eb5a54;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
     display: inline-block;
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .triangle {
@@ -77,49 +106,29 @@
 }
 /* #endregion utility */
 
-body {
-    background-color: #f6f8f9;
-    font-family: "Roboto";
-}
-
 /* #region header */
 header {
     background-color: white;
-    padding: 10px 25px;
-    margin-bottom: 60px;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
 }
 
-#title {
+.logo_txt {
     display: inline-block;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 /* #endregion header */
-
-.container {
-    width: 70%;
-    margin: auto;
-    background-color: white;
-    padding: 20px 40px;
-}
-
-#buttons_container {
-    border-radius: 10px 10px 0 0;
-    margin-bottom: 4px;
-}
-
-#sections_container {
-    border-radius: 0 0 10px 10px;
-    margin-bottom: 50px;
-}
 
 /* #region buttons */
 
 #add_task {
     background-color: #47adf1;
+    border: 1px solid #47adf1;
     color: white;
 }
 
 #add_section {
+    background-color: white;
     border: 1px solid #ced3d7;
     color: #ced3d7;
 }
