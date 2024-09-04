@@ -132,6 +132,7 @@ header, footer {
 
 main {
     margin-top: 3rem;
+    min-height: calc(100vh - 74px*2 - 48px);
 }
 
 main details {
